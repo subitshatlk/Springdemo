@@ -10,9 +10,9 @@ public class HomeController {
 
     @RequestMapping(value="/", method = RequestMethod.GET)
     public String printWelcome(ModelMap model) {
-        model.addAttribute("message", "Spring 4 MVC Hello Gradle World!!! This is a Thymeleaf template ");
-        System.out.println("index");
-        return "index";
+//        model.addAttribute("message", "Spring 4 MVC Hello Gradle World!!! This is a Thymeleaf template ");
+//        System.out.println("index");
+        return "multiply";
 
     }
 }
